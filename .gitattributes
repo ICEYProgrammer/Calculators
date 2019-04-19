@@ -1,2 +1,168 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+name = "You" 
+height_m = 1.63 #enter your height in meters
+weight_kg = 47 #enter your height in kg
+
+bmi = weight_kg / height_m ** 2
+print ("bmi: ")
+print (bmi) 
+if bmi < 25:
+    print(name)
+    print ("are not overweight")
+else: 
+    print(name)
+    print("are overweight")
+
+    print("This is my converting calculator for cm to height,what do you want to calculate?, your choices are Miles to Km, Kg to grams and centimeter to feet. Remember you need to type _ instead of space.")
+
+def height_cm1(x):
+      return x/30.48
+print("it goes from 150cm to 170cm around the average heights type cm then your weight for example cm155 the number that comes out is converted to feet")
+cm150 = height_cm1(150)
+cm151 = height_cm1(151)
+cm152 = height_cm1(152)
+cm153= height_cm1(153)
+cm154 = height_cm1(154)
+cm155 = height_cm1(155)
+cm156 = height_cm1(156)
+cm157 = height_cm1(157)
+cm158 = height_cm1(158)
+cm159 = height_cm1(159)
+cm160 = height_cm1(160)
+cm161 = height_cm1(161)
+cm162 = height_cm1(162)
+cm163 = height_cm1(163)
+cm164 = height_cm1(164)
+cm165 = height_cm1(165)
+cm166 = height_cm1(166)
+cm167 = height_cm1(167)
+cm168 = height_cm1(168)
+cm169 = height_cm1(169)
+cm170 = height_cm1(170)
+
+
+
+
+print("Type your miles by typing m then the number of miles for example m2 the number that come up is your miles converred into Km the limit is 100 miles")
+def functionKm(x):
+    return 1.6*x
+m1 = functionKm(1)
+m2 = functionKm(2)
+m3 = functionKm(3)
+m4 = functionKm(4)
+m5 = functionKm(5)
+m6 = functionKm(6)
+m7 = functionKm(7)
+m8 = functionKm(8)
+m9 = functionKm(9)
+m10 = functionKm(10)
+m11 = functionKm(11)
+m12 = functionKm(12)
+m13 = functionKm(13)
+m14 = functionKm(14)
+m15 = functionKm(15)
+m16 = functionKm(16)
+m17 = functionKm(17)
+m18 = functionKm(18)
+m19 = functionKm(19)
+m20 = functionKm(20)
+m21 = functionKm(21)
+m22 = functionKm(22)
+m23 = functionKm(23)
+m24 = functionKm(24)
+m25 = functionKm(25)
+m26 = functionKm(26)
+m27 = functionKm(27)
+m28 = functionKm(28)
+m29 = functionKm(29)
+m30 = functionKm(30)
+m31 = functionKm(31)
+m32 = functionKm(32)
+m33 = functionKm(33)
+m34 = functionKm(34)
+m35 = functionKm(35)
+m36 = functionKm(36)
+m37 = functionKm(37)
+m38 = functionKm(38)
+m39 = functionKm(39)
+m40 = functionKm(40)
+m41 = functionKm(41)
+m42 = functionKm(42)
+m43 = functionKm(43)
+m44 = functionKm(44)
+m45 = functionKm(45)
+m46 = functionKm(46)
+m47 = functionKm(47)
+m48 = functionKm(48)
+m49 = functionKm(49)
+m50 = functionKm(50)
+m51 = functionKm(51)
+m52 = functionKm(52)
+m53 = functionKm(53)
+m54 = functionKm(54)
+m55 = functionKm(55)
+m56 = functionKm(56)
+m57 = functionKm(57)
+m58 = functionKm(58)
+m59 = functionKm(59)
+m60 = functionKm(60)
+m61 = functionKm(61)
+m62 = functionKm(62)
+m63 = functionKm(63)
+m64 = functionKm(64)
+m65 = functionKm(65)
+m66 = functionKm(66)
+m67 = functionKm(67)
+m68 = functionKm(68)
+m69 = functionKm(69)
+m70 = functionKm(70)
+m71 = functionKm(71)
+m72 = functionKm(72)
+m73 = functionKm(73)
+m74 = functionKm(74)
+m75 = functionKm(75)
+m76 = functionKm(76)
+m77 = functionKm(77)
+m78 = functionKm(78)
+m79 = functionKm(79)
+m80 = functionKm(80)
+m81 = functionKm(81)
+m82 = functionKm(82)
+m83 = functionKm(83)
+m84 = functionKm(84)
+m85 = functionKm(85)
+m86 = functionKm(86)
+m87 = functionKm(87)
+m88 = functionKm(88)
+m89 = functionKm(89)
+m90 = functionKm(90)
+m91 = functionKm(91)
+m92 = functionKm(92)
+m93 = functionKm(93)
+m94 = functionKm(94)
+m95 = functionKm(95)
+m96 = functionKm(96)
+m97 = functionKm(97)
+m98 = functionKm(98)
+m99 = functionKm(99)
+m100 = functionKm(100)
+
+
+
+print("Now the computer could grade your students summatives!")
+
+def grade_converter(grade):
+    if grade >= 90:
+        return "A"
+    elif grade >= 80:
+        return "B"
+    elif grade >= 70:
+        return "C"
+    elif grade >= 65:
+        return "D"
+    elif grade != 65:
+        return "F"
+print("Write grade_converter(percentage of the grade) to get the result for examples grade_converter(95) is an A")
+
+print("type a word for it to be translated. the first letter of the world will be at the lend and ay will be added to the end of the word.")
